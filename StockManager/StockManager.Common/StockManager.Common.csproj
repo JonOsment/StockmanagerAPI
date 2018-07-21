@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\StockManager.Models\StockManager.Models.csproj" />
+    <ProjectReference Include="..\StockManager.Interfaces\StockManager.Interfaces.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Automapper" Version="7.0.0" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.3.10.2" />
+    <PackageReference Include="MongoDB.Bson" Version="2.6.1" />
+    <PackageReference Include="MongoDB.Driver" Version="2.6.1" />
+    <PackageReference Include="MongoDB.Driver.Core" Version="2.6.1" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
